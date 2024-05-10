@@ -1,0 +1,109 @@
+.contact_form{
+    height: 300px;
+    margin-left: 33%;
+    border: 1px solid black;
+    border-radius: 23px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-top: 20px;
+}
+.form_get_started{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 20px;
+}   
+.text_areas{
+    width: 300px;
+    display: block;
+}
+
+.lables{
+    font-size: 17px;
+    font-weight: bold;
+}
+.Language{
+    height: 180px;
+    margin-left: 33%;
+    border: 1px solid black;
+    border-radius: 23px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-top: 20px;
+
+}
+.Proficieny_in_targeted_language{
+    height: 180px;
+    margin-left: 33%;
+    border: 1px solid black;
+    border-radius: 23px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-top: 20px;
+}
+.Advanced_Language{
+    font-size: 17px;
+    font-weight: bold;
+}
+.Legend_proficiency{
+    font-weight: bold;
+}
+.Cultural_Interests{
+    height: 180px;
+    margin-left: 33%;
+    border: 1px solid black;
+    border-radius: 23px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-top: 20px;
+}
+.Submit_button{
+    height: 80px;
+    margin-left: 33%;
+    padding-right: 15px;
+    border: 2px solid black;
+    border-radius: 23px;
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    gap: 12px;
+    margin-top: 20px;
+}
+.button_Reset,
+.button_Submit {
+    background-color: transparent;
+    color: #5653f5fd;
+    border: 2px solid #5653f5fd;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}  
+.button_Reset:hover,
+.button_Submit:hover {
+    background-color: #5653f5fd;
+    color: white;
+}          
+      
+
+

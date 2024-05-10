@@ -1,0 +1,34 @@
+.events_heading{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #060606;
+}
+.first_para_about{
+    margin-top: 23px;
+   margin-left: 4%;
+    width:80%;
+}
+
+.events_main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.event_card{
+    width:280px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 13px;
+    margin-bottom: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #777575;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.event_image{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 6px;
+}
