@@ -1,95 +1,162 @@
-.contact_form{
-    height: 300px;
-    margin-left: 33%;
+/* Existing styles */
+
+@media (max-width: 768px) {
+    .contact_form,
+    .Language,
+    .Proficieny_in_targeted_language,
+    .Cultural_Interests,
+    .Submit_button {
+      margin-left: 0;
+      width: 90%;
+      max-width: 450px;
+    }
+  
+    .text_areas {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .form-group3 {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .form-group3 label {
+      margin-bottom: 8px;
+    }
+  
+    .form-group4 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .button_Reset,
+    .button_Submit {
+      margin-bottom: 8px;
+    }
+  }
+  
+  .contact_form {
+    margin: 20px auto;
     border: 1px solid black;
     border-radius: 23px;
-    width: 450px;
+    max-width: 450px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .form_get_started {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     gap: 12px;
-    margin-top: 20px;
-}
-.form_get_started{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 12px;
-    margin-top: 20px;
-}   
-.text_areas{
-    width: 300px;
-    display: block;
-}
-
-.lables{
+  }
+  
+  .text_areas {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  .lables {
     font-size: 17px;
     font-weight: bold;
-}
-.Language{
-    height: 180px;
-    margin-left: 33%;
+  }
+  
+  .Language {
+    margin: 20px auto;
     border: 1px solid black;
     border-radius: 23px;
-    width: 450px;
+    max-width: 450px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .Language_info {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     gap: 12px;
-    margin-top: 20px;
-
-}
-.Proficieny_in_targeted_language{
-    height: 180px;
-    margin-left: 33%;
+  }
+  
+  .Proficieny_in_targeted_language {
+    margin: 20px auto;
     border: 1px solid black;
     border-radius: 23px;
-    width: 450px;
+    max-width: 450px;
+    padding: 20px;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .Proficiency {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .form-group2 {
+    display: flex;
     align-items: center;
-    gap: 12px;
-    margin-top: 20px;
-}
-.Advanced_Language{
+    gap: 8px;
+  }
+  
+  .Advanced_Language {
     font-size: 17px;
     font-weight: bold;
-}
-.Legend_proficiency{
+  }
+  
+  .Legend_proficiency {
     font-weight: bold;
-}
-.Cultural_Interests{
-    height: 180px;
-    margin-left: 33%;
+  }
+  
+  .Cultural_Interests {
+    margin: 20px auto;
     border: 1px solid black;
     border-radius: 23px;
-    width: 450px;
+    max-width: 450px;
+    padding: 20px;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+  }
+  
+  .Culture {
+    display: flex;
+    flex-direction: column;
     gap: 12px;
-    margin-top: 20px;
-}
-.Submit_button{
-    height: 80px;
-    margin-left: 33%;
-    padding-right: 15px;
+  }
+  
+  .form-group3 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  
+  .form-group3 label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .Submit_button {
+    margin: 20px auto;
     border: 2px solid black;
     border-radius: 23px;
-    width: 450px;
+    max-width: 450px;
+    padding: 20px;
+    box-sizing: border-box;
     display: flex;
-    flex-direction: row;
-    justify-content: right;
-    align-items: center;
+    justify-content: center;
     gap: 12px;
-    margin-top: 20px;
-}
-.button_Reset,
-.button_Submit {
+  }
+  
+  .button_Reset,
+  .button_Submit {
     background-color: transparent;
     color: #5653f5fd;
     border: 2px solid #5653f5fd;
@@ -98,12 +165,37 @@
     font-size: 16px;
     cursor: pointer;
     transition: all 0.3s ease;
-}  
-.button_Reset:hover,
-.button_Submit:hover {
+  }
+  
+  .button_Reset:hover,
+  .button_Submit:hover {
     background-color: #5653f5fd;
     color: white;
-}          
+  }
+
+  .form-group3 input[type="text"] {
+    width: 200px; 
+    padding: 8px;
+    box-sizing: border-box;
+  } 
+
+body {
+    background-image: url('../Media/bg1.avif'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-attachment: fixed;
+    margin: 0; 
+    padding: 0; 
+    font-family: Arial, sans-serif; 
+    color: white; 
+}
+
+h1, p {
+    text-align: center;
+    margin: 20px; 
+}
+        
       
 
 
