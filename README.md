@@ -31,16 +31,22 @@ Here are a few highlights of the app:
 
 - Homepage with interactive carousel and language flags
 <img width="1351" height="664" alt="image" src="https://github.com/user-attachments/assets/0cb643af-08cb-436e-a52b-29de5be1f619" />
+<img width="1344" height="677" alt="image" src="https://github.com/user-attachments/assets/c5f4476b-468a-4286-880c-56f08bd33e89" />
+<img width="1352" height="677" alt="image" src="https://github.com/user-attachments/assets/f73cab76-257e-4521-8242-558a9242f962" />
 
-- 📅 Events page for cultural activities
-- 🧑‍🏫 About page with mission, vision, and course pricing
-- 📥 Call-to-action for users to "Get Started"
+- Events page for cultural activities
+<img width="1347" height="675" alt="image" src="https://github.com/user-attachments/assets/fc2c0c21-df62-43bd-9dd9-6000b83ae893" />
+
+- About page
+<img width="1348" height="667" alt="image" src="https://github.com/user-attachments/assets/7cd5c46f-f4a0-417e-bf85-fdcbdbbff18d" />
+
+- Call-to-action for users to "Get Started"
+<img width="1348" height="672" alt="image" src="https://github.com/user-attachments/assets/3797fe4a-ba9f-4672-a500-7c976723c45a" />
+<img width="1347" height="676" alt="image" src="https://github.com/user-attachments/assets/d18ffc98-828f-4adc-8a11-0917fefa8b87" />
 
 ---
 
-## 💡 Why I Built This
-
-I’m passionate about languages, communication, and cultures. I live in Budapest now but come from Pakistan — I’ve seen how language brings people together. So, this project was my way of learning front-end design **while turning a personal interest into a visual experience**.
+This was my buisness Idea in the first semester and then in the second semesster I made the front end as a assignment of corse web development.
 
 This was also my attempt to practice:
 
@@ -48,14 +54,3 @@ This was also my attempt to practice:
 - Working with multi-page site structure
 - Using Bootstrap components and layout systems
 - Custom JS interactions (like hover effects)
-
----
-
-## 🛠️ How to Run It
-
-You can try this project locally by following these steps:
-
-```bash
-git clone https://github.com/YOUR_USERNAME/LinguaSwap.git
-cd LinguaSwap
-open index.html  # Or double-click the file
